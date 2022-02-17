@@ -1,0 +1,7 @@
+:root{
+   --orange-color: #f7e68b;
+}
+
+.orange-bg{
+    background-color: var(--orange-color);
+}
