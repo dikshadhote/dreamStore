@@ -1,92 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="https://dreamui-demo.netlify.app/dreamui-v1.css"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://dreamui-demo.netlify.app/dreamui-v1.css"
+    />
     <title>Home|dreamStore</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="nav-bar nav-yellow-shadow">
-        <div class="nav-logo-section">
-            <img src="../assets/location.png" class="mb-1" />
-            <h3 class="mr-4 aqua-color">dreamStore</h3>
-            <a class="black-text-color" href="#navigation">
-               <h5>products</h5>
-            </a>
+      <div class="nav-logo-section">
+        <img src="../assets/location.png" class="mb-1" />
+        <h3 class="mr-4 aqua-color">dreamStore</h3>
+        <a class="black-text-color" href="#navigation">
+          <h5>products</h5>
+        </a>
+      </div>
+      <div class="search-bar-section">
+        <div class="search-container">
+          <input placeholder="search" class="search-bar" />
+          <span class="material-icons"> search </span>
         </div>
-        <div class="search-bar-section">
-            <div class="search-container">
-              <input placeholder="search" class="search-bar" />
-              <span class="material-icons"> search </span>
+      </div>
+      <div class="nav-items">
+        <a class="black-text-color" href="#navigation">
+          <span class="material-icons mr-1" title="wishlist"> favorite </span>
+        </a>
+        <a class="black-text-color" href="#navigation">
+          <span class="material-icons mr-1 ml-1" title="cart">
+            shopping_cart
+          </span>
+        </a>
+        <a href="#navigation" class="black-text-color"
+          ><span class="material-icons ml-1" title="account">
+            account_circle
+          </span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <div class="carousel-banner"></div>
+      <div class="">
+        <div class="d-flex flex-justify-center">
+          <h3 class="mt-2">Top categories</h3>
+        </div>
+        <div class="d-flex flex-justify-center">
+          <div class="card flex-column card-vert category-card card-shadow">
+            <img
+              src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
+              class="category-card-img"
+            />
+            <div class="d-flex flex-justify-center">
+              <a class="card-category-txt" href="#"> Sofas & armchairs </a>
             </div>
-        </div>
-        <div class="nav-items">
-            <a class="black-text-color" href="#navigation">
-              <span class="material-icons mr-1" title="wishlist">
-                favorite
-              </span>
-            </a>
-            <a class="black-text-color" href="#navigation">
-            <span class="material-icons mr-1 ml-1" title="cart">  
-                shopping_cart
-              </span>
-            </a>
-            <a href="#navigation" class="black-text-color"
-              ><span class="material-icons ml-1" title="account">     
-                account_circle
-              </span>
-            </a>
-         </div>
-        </div>
-        <div>
-            <div class="carousel-banner"></div>
-            <div class="">
-                <div class="d-flex flex-justify-center"> 
-                    <h3 class="mt-2">Top categories</h3>
-                </div>
-                <div class="d-flex">
-                    <div class="card flex-column card-vert category-card card-shadow">
-                        <img
-                          src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
-                          class="category-card-img"/>
-                          <div  class="d-flex flex-justify-center">
-                            <a class="card-category-txt" href="#">
-                                Sofas & armchairs
-                           </a>
-                          </div>
-                         
-                      </div>
-                      <div class="card flex-column card-vert card-shadow">
-                        <img
-                        src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
-                        class="category-card-img"/>
-                        <div  class="d-flex flex-justify-center">
-                            <a class="card-category-txt" href="#">Cookware & table ware</a>
-                        </div>
-                      </div>
-                      <div class="card flex-column card-vert card-shadow">
-                        <img
-                        src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
-                        class="category-card-img"/>
-                        <div  class="d-flex flex-justify-center">
-                            <a class="card-category-txt" href="#">Smart home</a>
-                        </div>
-                      </div>
-                      <div class="card flex-column card-vert card-shadow">
-                        <img
-                        src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
-                        class="category-card-img"/>
-                        <div  class="d-flex flex-justify-center">
-                            <a class="card-category-txt" href="#">Mirrors</a>
-                        </div>
-                      </div>
-                    </div>  
-                </div>
+          </div>
+          <div class="card flex-column card-vert card-shadow">
+            <img
+              src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
+              class="category-card-img"
+            />
+            <div class="d-flex flex-justify-center">
+              <a class="card-category-txt" href="#">Cookware & table ware</a>
             </div>
-
+          </div>
+          <div class="card flex-column card-vert card-shadow">
+            <img
+              src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
+              class="category-card-img"
+            />
+            <div class="d-flex flex-justify-center">
+              <a class="card-category-txt" href="#">Smart home</a>
+            </div>
+          </div>
+          <div class="card flex-column card-vert card-shadow">
+            <img
+              src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
+              class="category-card-img"
+            />
+            <div class="d-flex flex-justify-center">
+              <a class="card-category-txt" href="#">Mirrors</a>
+            </div>
+          </div>
         </div>
-</body>
+        <div class="d-flex flex-justify-center">
+          <div class="card flex-column card-vert category-card card-shadow">
+            <img
+              src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
+              class="category-card-img"
+            />
+            <div class="d-flex flex-justify-center">
+              <a class="card-category-txt" href="#"> Beds </a>
+            </div>
+          </div>
+          <div class="card flex-column card-vert card-shadow">
+            <img
+              src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
+              class="category-card-img"
+            />
+            <div class="d-flex flex-justify-center">
+              <a class="card-category-txt" href="#">Chairs</a>
+            </div>
+          </div>
+          <div class="card flex-column card-vert card-shadow">
+            <img
+              src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
+              class="category-card-img"
+            />
+            <div class="d-flex flex-justify-center">
+              <a class="card-category-txt" href="#">Table & Desk</a>
+            </div>
+          </div>
+          <div class="card flex-column card-vert card-shadow">
+            <img
+              src="https://img.freepik.com/free-psd/wooden-furniture-with-decorative-objects-lamp-interior-design-ideas_176382-1517.jpg?w=740"
+              class="category-card-img"
+            />
+            <div class="d-flex flex-justify-center">
+              <a class="card-category-txt" href="#">Storage & Organisation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="d-flex flex-justify-around">
+        <div class="ml-3">
+            <p>© 2021, All rights reserved</p>
+            <p>Made with <span class="material-icons icon-red"> favorite </span> by Diksha Dhote</p> 
+        </div>
+        <div class="mr-3">
+            <h4>Contact Us</h4>
+            <p>Location: Central bazar road, HB Town, Nagpur - 44604</p>
+            <p>Call Us: (+91) 1800 0000 99</p>
+        </div>
+    </footer>
+  </body>
 </html>
