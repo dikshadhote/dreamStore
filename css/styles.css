@@ -8,7 +8,7 @@
 
 .footer-ecom{
     padding:2rem;
-    background-color: var(--card-border-color);
+    background-color: var(--component-secondary-color);
 }
 
 .material-icons.heart-icon{
