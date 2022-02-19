@@ -1,9 +1,17 @@
 .login-container{
-    width:33rem;
+    width:28rem;
     padding:2rem;
     top:5rem;
 }
 
-.input{
+.input-login{
     width:20rem;
+}
+
+.fs-small{
+    font-size: 0.9rem;
+}
+
+.login-button{
+width:20rem;
 }
