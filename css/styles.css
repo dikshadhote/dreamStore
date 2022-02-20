@@ -5,3 +5,12 @@
 .orange-bg{
     background-color: var(--orange-color);
 }
+
+.footer-ecom{
+    padding:2rem;
+    background-color: var(--component-secondary-color);
+}
+
+.material-icons.heart-icon{
+    font-size: 0.9rem;
+}
