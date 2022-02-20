@@ -4,12 +4,6 @@
     padding:1.5rem;
 }
 
-/* 
-
-.products-container{
-    flex-wrap: wrap;
-} */
-
 .products-grid-container{
     overflow-y: auto;
     height: 100vh;
