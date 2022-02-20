@@ -14,3 +14,11 @@
 .material-icons.heart-icon{
     font-size: 0.9rem;
 }
+
+.list-style-none{
+    list-style-type: none;
+}
+
+.underline{
+    text-decoration: underline;
+}

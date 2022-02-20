@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/products.css" />
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <link
+      rel="stylesheet"
+      href="https://dreamui-demo.netlify.app/dreamui-v1.css"
+    />
+    <title>Home|dreamStore</title>
+  </head>
+  <body>
+    <div class="nav-bar nav-yellow-shadow">
+      <div class="nav-logo-section">
+        <img src="../assets/location.png" class="mb-1" />
+        <h3 class="mr-4 aqua-color">dreamStore</h3>
+        <a class="black-text-color"  href="../index.html">
+          <h5>Home</h5>
+        </a>
+      </div>
+      <div class="search-bar-section">
+        <div class="search-container">
+          <input placeholder="search" class="search-bar" />
+          <span class="material-icons"> search </span>
+        </div>
+      </div>
+      <div class="nav-items">
+        <a class="black-text-color"  href="./pages/wishlist.html">
+          <span class="material-icons mr-1" title="wishlist"> favorite </span>
+        </a>
+        <a class="black-text-color"  href="./pages/cart.html">
+          <span class="material-icons mr-1 ml-1" title="cart">
+            shopping_cart
+          </span>
+        </a>
+        <a  href="./pages/login.html" class="black-text-color"
+          ><span class="material-icons ml-1" title="account">
+            account_circle
+          </span>
+        </a>
+      </div>
+    </div>
+    <div class="d-flex">
+     <div class="d-flex flex-column sidebar-container">
+        <div class="d-flex flex-justify-space-between mb-2">
+           <h4>Filters</h4> 
+           <a class="underline">Clear</a>
+        </div>
+        <div class="mb-2">
+            <h4 class="pb-1">Price</h4>
+            <input type="range" name="range"  min="0" max="100" value="50"/>     
+        </div>
+        <div class="mb-2">
+            <h4 class="pb-1">Category</h4>
+            <ul class="list-style-none">
+                <li>
+                    <input id="checkbox-checked" class="form-check-input" type="checkbox" checked/>
+                   <label for="checkbox-checked">Furniture</label>
+                </li>
+                <li>
+                    <input id="checkbox-unchecked" class="form-check-input" type="checkbox"/> 
+                    <label for="checkbox-unchecked">Kitchen and appliances</label>
+                </li>
+                <li>
+                    <input id="checkbox-unchecked" class="form-check-input" type="checkbox"/> 
+                    <label for="checkbox-unchecked">Beds and mattresses</label>
+                </li>
+                <li>
+                    <input id="checkbox-unchecked" class="form-check-input" type="checkbox"/> 
+                    <label for="checkbox-unchecked">Decoration</label>
+                </li>
+            </ul>
+         </div>
+         <div class="mb-2">
+            <h4 class="pb-1">Rating</h4>
+            <ul class="list-style-none">
+                <li>
+                    <input id="radio-checked" class="form-check-input" type="radio" checked/>           
+                    <label for="radio-checked">4 stars & above</label>
+          
+                </li>
+                <li>
+                    <input id="radio-unchecked" class="form-check-input" type="radio"/>
+                    <label for="radio-unchecked">3 stars & above</label>
+                </li>
+                <li>
+                    <input id="radio-unchecked" class="form-check-input" type="radio"/>
+                    <label for="radio-unchecked">2 stars & above</label>
+                </li>
+                <li>
+                    <input id="radio-unchecked" class="form-check-input" type="radio"/>
+                    <label for="radio-unchecked">1 stars & above</label>
+                </li>
+            </ul>
+         </div>
+         <div class="mb-2">
+            <h4 class="pb-1">Sort by</h4>
+            <ul class="list-style-none">
+                <li>
+                    <input id="radio-checked" class="form-check-input" type="radio" checked/>           
+                    <label for="radio-checked">Price:Low to High</label>
+          
+                </li>
+                <li>
+                    <input id="radio-unchecked" class="form-check-input" type="radio"/>
+                    <label for="radio-unchecked">Price:High to Low</label>
+                </li>
+            </ul>
+         </div>
+     </div>
+     <div class=" m-2">
+         <h3 class="pb-1">Products</h3>
+     </div>
+    </div>
+    <footer class="d-flex flex-justify-around mt-2 footer-ecom">
+        <div class="ml-3">
+            <p class="p-1">© 2021, All rights reserved</p>
+            <p class="pl-1">Made with <span class="material-icons heart-icon icon-red"> favorite </span> by Diksha Dhote</p> 
+        </div>
+        <div class="mr-3">
+            <h4 class="pl-1">Contact Us</h4>
+            <p class="p-1">Location: Central bazar road, HB Town, Nagpur - 44604</p>
+            <p class="pl-1">Call Us: (+91) 1800 0000 99</p>
+        </div>
+    </footer>
+  </body>
+</html>
