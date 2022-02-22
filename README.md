@@ -1,17 +1,15 @@
 # dreamStore
 
-Live demo preview:
-https://dreamui-demo.netlify.app/index.html
+live link :
+https://dreamstore101.netlify.app/
 
-DreamUI component library contains following components which you can reuse:
+DreamStore contains following features :
 
-1.Alerts
-2.Avatar
-3.Badge
-4.Buttons
-5.Card
-6.Image
-7.Input
-8.Navigation
-9.Text Utilities
-10.Snackbar
+ - Landing page
+ - Login page
+ - Signup page
+ - Products page
+ - wishlist page
+ - Cart page
+
+
